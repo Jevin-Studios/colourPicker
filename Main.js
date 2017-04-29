@@ -25,11 +25,13 @@ function changeColour() {
 	}
 	if(greenInput.value == "") {
 		document.getElementById("greenInput").value = 0;
+	}
 	if(blueInput.value > Number(255)) {
 		document.getElementById("blueInput").value = 255;
 	}
 	if(blueInput.value == "") {
 		document.getElementById("blueInput").value = 0;
+	}
 	var colourBoxDiv = document.getElementById("colourBox");
 	colourBoxDiv.style.background = "rgb(" + redInput.value + "," + greenInput.value + "," + blueInput.value + ")";
 	var brightness = ((redInput.value * 299) + (greenInput.value * 587) + (blueInput.value * 114)) / 1000;
