@@ -1,4 +1,3 @@
-
 var R = 0;
 var G = 0;
 var B = 0;
