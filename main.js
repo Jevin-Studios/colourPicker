@@ -4,13 +4,6 @@ var B = 0;
 var HexR = 00;
 var HexG = 00;
 var HexB = 00;
-var CMYKR = 0;
-var CMYKG = 0;
-var CMYKB = 0;
-var C = 0;
-var M = 0;
-var Y = 0;
-var K = 0;
 
 
 function changeColour() {
