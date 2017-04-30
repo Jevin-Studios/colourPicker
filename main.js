@@ -5,6 +5,12 @@ var HexR = 00;
 var HexG = 00;
 var HexB = 00;
 
+var link = document.createElement('link');
+link.type = 'image/x-icon';
+link.rel = 'shortcut icon';
+link.href = 'https://jevin-studios.github.io/colourPicker/colourPicker.ico';
+document.getElementsByTagName('head')[0].appendChild(link);
+
 
 function changeColour() {
 	if(redInput.value > Number(255)) {
